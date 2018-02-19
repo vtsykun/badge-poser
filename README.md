@@ -4,15 +4,15 @@ Badge-Poser
 Use shields for your packagist.org repository that shows how many times your project has been downloaded from packagist.org
 or its latest stable version.
 
-[![Latest Stable Version](https://poser.pugx.org/pugx/badge-poser/version.svg)](https://packagist.org/packages/pugx/badge-poser)
-[![Latest Unstable Version](https://poser.pugx.org/pugx/badge-poser/v/unstable.svg)](https://packagist.org/packages/pugx/badge-poser)
+[![Latest Stable Version](https://poser.okvpn.org/pugx/badge-poser/version.svg)](https://packagist.org/packages/pugx/badge-poser)
+[![Latest Unstable Version](https://poser.okvpn.org/pugx/badge-poser/v/unstable.svg)](https://packagist.org/packages/pugx/badge-poser)
 [![Build Status](https://secure.travis-ci.org/PUGX/badge-poser.svg)](http://travis-ci.org/PUGX/badge-poser)
-[![License](https://poser.pugx.org/pugx/badge-poser/license.svg)](https://packagist.org/packages/pugx/badge-poser)
-[![Downloads](https://poser.pugx.org/pugx/badge-poser/d/total.svg)](https://packagist.org/packages/pugx/badge-poser)
-[![composer.lock available](https://poser.pugx.org/pugx/badge-poser/composerlock)](https://packagist.org/packages/pugx/badge-poser)
+[![License](https://poser.okvpn.org/pugx/badge-poser/license.svg)](https://packagist.org/packages/pugx/badge-poser)
+[![Downloads](https://poser.okvpn.org/pugx/badge-poser/d/total.svg)](https://packagist.org/packages/pugx/badge-poser)
+[![composer.lock available](https://poser.okvpn.org/pugx/badge-poser/composerlock)](https://packagist.org/packages/pugx/badge-poser)
 
 ## How to create your own Badge
--  Go to the [Badge Poser](https://poser.pugx.org) website
+-  Go to the [Badge Poser](https://poser.okvpn.org) website
 -  Insert username/repository and click on `Show`
 -  That's it!  Copy the Markdown into the README.md
 
