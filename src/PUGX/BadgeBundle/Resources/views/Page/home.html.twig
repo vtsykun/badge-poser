@@ -71,13 +71,17 @@
                             <img class="gitattributes_img" src="{{ path('pugx_badge_gitattributes',{'repository': repository}) }}">
                         </a>
 
-                        <a title="copy to clipboard"  class="copy_on_clip btn btn-mini pull-right"  data-clipboard-target="#clip_all_markdown" style="margin-top: 20px;">
-                            <i class="icon-share"></i>
-                            Copy to clipboard
-                        </a>
-                        <input id="clip_all_markdown" readonly="readonly" class="input-large hidden" type="text" value="[![Latest Stable Version]({{ url('pugx_badge_version',{'repository': repository}) }})]({{ url('pugx_badge_packagist',{'repository': repository}) }}) [![Latest Unstable Version]({{ url('pugx_badge_version_latest',{'repository': repository, 'latest':'unstable'}) }})]({{ path('pugx_badge_packagist',{'repository': repository}) }}) [![Total Downloads]({{ url('pugx_badge_download',{'repository': repository}) }})]({{ url('pugx_badge_packagist',{'repository': repository}) }}) [![composer.lock available]({{ url('pugx_badge_composerlock',{'repository': repository}) }})] [![.gitattributes available]({{ url('pugx_badge_gitattributes',{'repository': repository}) }})]
+                        <div class="input-prepend input-append combined-box pull-right" style="padding-top: 15px">
+                            <span class="add-on">markdown</span>
+                            <input id="clip_all_markdown" readonly="readonly" class="input-large" type="text" value="[![Latest Stable Version]({{ url('pugx_badge_version',{'repository': repository}) }})]({{ url('pugx_badge_packagist',{'repository': repository}) }}) [![Latest Unstable Version]({{ url('pugx_badge_version_latest',{'repository': repository, 'latest':'unstable'}) }})]({{ path('pugx_badge_packagist',{'repository': repository}) }}) [![Total Downloads]({{ url('pugx_badge_download',{'repository': repository}) }})]({{ url('pugx_badge_packagist',{'repository': repository}) }}) [![composer.lock available]({{ url('pugx_badge_composerlock',{'repository': repository}) }})] [![.gitattributes available]({{ url('pugx_badge_gitattributes',{'repository': repository}) }})]
+                            ({{ url('pugx_badge_packagist',{'repository': repository}) }})">
+                            <a title="copy to clipboard" class="add-on copy_on_clip btn latest_stable_version_clip"
+                               data-clipboard-target="#clip_all_markdown"
+                            >
+                                <i class="icon-share"></i>
+                            </a>
+                        </div>
 
-                        ({{ url('pugx_badge_packagist',{'repository': repository}) }})">
                     </div>
 
                     <hr>
